@@ -1,19 +1,21 @@
 🐍 Python File Handling Tasks
+
 📝 Overview
 
-This project covers basic file handling in Python, focusing on reading, writing, appending, and error handling.
+This project covers basic file handling in Python, focusing on reading, writing, appending, and error handling. 
 
 📘 Task 1: Read a File and Handle Errors
 🧩 Problem Statement
 
 Write a Python program that:
 
-*Opens and reads a text file named sample.txt
-*Prints its content line by line
-*Handles errors gracefully if the file does not exist
+Opens and reads a text file named sample.txt
+
+Prints its content line by line
+
+Handles errors gracefully if the file does not exist
 
 💻 Sample Code
-
 try:
     with open("sample.txt", "r") as file:
         print("File content:\n")
@@ -31,18 +33,18 @@ File content:
 If the file does not exist:
 Error: The file 'sample.txt' does not exist.
 
-
 📘 Task 2: Write and Append Data to a File
 🧩 Problem Statement
 
 Write a Python program that:
 
-*Takes user input and writes it to output.txt
-*Appends additional text to the same file
-*Reads and displays the final content
+Takes user input and writes it to output.txt
+
+Appends additional text to the same file
+
+Reads and displays the final content
 
 💻 Sample Code
-
 text = input("Enter text to write to the file: ")
 
 with open("output.txt", "w") as file:
@@ -69,8 +71,11 @@ I am appending this text
 🧠 Concepts Covered
 
 File reading (open, read, loops)
+
 File writing (w mode)
+
 Appending data (a mode)
+
 Error handling using try-except
 
 Using context managers (with open)
